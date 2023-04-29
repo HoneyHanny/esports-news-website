@@ -32,21 +32,20 @@ header ul:hover {
 				 0px 0px 5px white;
 }
 
-.bglines {
-	background-color: grey;
+header .icon-tabler {
+	transform: translateX(200px);
+	margin: 10px;
 }
 
 .icon-tabler:hover {
 	transition: .3s;
-	filter: drop-shadow(0px 0px 5px rgb(255 255 255));
-}
-
-.icon-tabler-brand-facebook-filled {
-	transform: translateX(200px);
+	filter: drop-shadow(0px 0px 5px rgb(255 0 0));
+	color: red;
 }
 
 .follow {
-	background-color: #cf3b00;
+	/* background-color: #cf3b00; */
+	background-color: red;
 	padding: 20px;
 	padding-right: 50px;
 	padding-left: 50px;
@@ -62,4 +61,8 @@ header ul:hover {
 				 0px 0px 5px white,
 				 0px 0px 5px white;
 	filter: drop-shadow(0px 0px 5px rgb(255 50 50));
+}
+
+.bglines {
+	background-color: grey;
 }
