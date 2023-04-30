@@ -66,8 +66,17 @@ header .icon-tabler {
 }
 
 main {
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
 	text-align: center;
 	color: white;
+	justify-content: center;
+}
+
+main > article {
+	justify-content: center;
+	text-align: justify;
 }
 
 footer {
