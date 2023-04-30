@@ -1,7 +1,7 @@
 html {
 	color: white;
-	background-color: #222222;
-	font-family: "JetBrains Mono", "Times", "Serif";
+	background-color: #111111;
+	font-family: "JetBrains Mono", "Times", "Serif", "Arial";
 }
 
 body {
@@ -22,19 +22,18 @@ header ul {
 	float: left;
 	margin-left: 50px;
 	margin-right: 100px;
+	transition: .3s;
 }
 
 header ul:hover {
-	transition: .3s;
 	text-shadow: 0px 0px 5px white,
-				 0px 0px 5px white,
-				 0px 0px 5px white,
 				 0px 0px 5px white;
 }
 
 header .icon-tabler {
 	transform: translateX(200px);
 	margin: 10px;
+	transition: .3s;
 }
 
 .icon-tabler:hover {
@@ -52,15 +51,14 @@ header .icon-tabler {
 	border-radius: 30px;
 	float: right;
 	transform: translate(0px, -25px);
+	transition: .3s;
 }
 
 .follow:hover {
-	transition: .3s;
 	text-shadow: 0px 0px 5px white,
-				 0px 0px 5px white,
-				 0px 0px 5px white,
 				 0px 0px 5px white;
-	filter: drop-shadow(0px 0px 5px rgb(255 50 50));
+	filter: drop-shadow(0px 0px 5px rgb(255 50 50))
+			drop-shadow(0px 3px 9px rgb(255 50 50));
 }
 
 .bglines {
